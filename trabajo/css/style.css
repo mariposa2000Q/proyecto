@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+}
+header{
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(237, 243, 245);
+}
+header *{
+    display: inline;
+    margin: 3px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+img {
+    padding: 2px;
+    border-radius: 25px;
+
+}
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#inicio .imagen {
+    width: 300px;
+}
+
+section {
+    border: 1px solid black;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+footer {
+    text-align: center;
+
+}
